@@ -1,0 +1,74 @@
+Finish loading indexes
+Finish loading indexes
+MeanConcatDense(
+  (audio_embed): Sequential(
+    (0): Linear(in_features=512, out_features=512, bias=True)
+    (1): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU()
+    (3): Dropout(p=0.2, inplace=False)
+    (4): Linear(in_features=512, out_features=128, bias=True)
+  )
+  (video_embed): Sequential(
+    (0): Linear(in_features=512, out_features=512, bias=True)
+    (1): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU()
+    (3): Dropout(p=0.2, inplace=False)
+    (4): Linear(in_features=512, out_features=128, bias=True)
+  )
+  (outputlayer1): Sequential(
+    (0): Linear(in_features=128, out_features=128, bias=True)
+    (1): Linear(in_features=128, out_features=10, bias=True)
+  )
+  (outputlayer2): Sequential(
+    (0): Linear(in_features=128, out_features=128, bias=True)
+    (1): Linear(in_features=128, out_features=10, bias=True)
+  )
+)
+-----------start training-----------
+epoch 1
+---------------------------------------------------------------------------------------------------
+epoch 1 training loss:  1.5655232917877935 cv loss:  1.02722829580307
+best validation model found and saved.
+---------------------------------------------------------------------------------------------------
+epoch 2
+---------------------------------------------------------------------------------------------------
+epoch 2 training loss:  0.7174874750837203 cv loss:  0.6540205081303915
+best validation model found and saved.
+---------------------------------------------------------------------------------------------------
+epoch 3
+---------------------------------------------------------------------------------------------------
+epoch 3 training loss:  0.3908782716720335 cv loss:  0.49262286225954693
+best validation model found and saved.
+---------------------------------------------------------------------------------------------------
+epoch 4
+---------------------------------------------------------------------------------------------------
+epoch 4 training loss:  0.22356840078869172 cv loss:  0.4485613877574603
+best validation model found and saved.
+---------------------------------------------------------------------------------------------------
+epoch 5
+---------------------------------------------------------------------------------------------------
+epoch 5 training loss:  0.135141437452647 cv loss:  0.4428161171575387
+best validation model found and saved.
+---------------------------------------------------------------------------------------------------
+epoch 6
+---------------------------------------------------------------------------------------------------
+epoch 6 training loss:  0.08406668060248898 cv loss:  0.4442945135136445
+epoch 7
+---------------------------------------------------------------------------------------------------
+epoch 7 training loss:  0.053040912104470116 cv loss:  0.4765156880021095
+epoch 8
+---------------------------------------------------------------------------------------------------
+epoch 8 training loss:  0.035390803169819615 cv loss:  0.4840531374017398
+epoch 9
+---------------------------------------------------------------------------------------------------
+epoch 9 training loss:  0.024834720507985162 cv loss:  0.4834677428007126
+epoch 10
+---------------------------------------------------------------------------------------------------
+epoch 10 training loss:  0.020315181629191482 cv loss:  0.5008951139946779
+epoch 11
+---------------------------------------------------------------------------------------------------
+epoch 11 training loss:  0.01910880015742394 cv loss:  0.49286716369291145
+epoch 12
+---------------------------------------------------------------------------------------------------
+epoch 12 training loss:  0.01889671024776274 cv loss:  0.4937642129758994
+Finish loading indexes
